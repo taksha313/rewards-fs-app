@@ -28,7 +28,7 @@ public class CustomerPurchase {
 
 	@Column
 	@Temporal(TemporalType.DATE)
-	@JsonFormat(pattern = "MM/dd/yyy")
+	@JsonFormat(pattern = "MM/dd/yyyy")
 	private Date purchaseDate;
 
 	@Column
